@@ -135,9 +135,10 @@ p {
 
 .rodape {
     width: 100%;
-    padding: 20px;
+    padding: 40px;
     background-color: white;
     text-align: center;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
@@ -179,7 +180,7 @@ p {
         padding: 10px 20px;
         font-size: 14px;
     }
-    
+
     .botao {
         padding: 10px 20px;
         font-size: 14px;
